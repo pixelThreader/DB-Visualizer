@@ -1,7 +1,7 @@
 #[tauri::command]
 pub fn versionno(prefix: Option<bool>) -> String {
     let prefix = prefix.unwrap_or(false);
-    let version = "1.0.1";
+    let version = "1.0.2";
     if prefix {
         return format!("v{}", version);
     } else {
