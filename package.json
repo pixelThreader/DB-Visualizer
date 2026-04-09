@@ -1,7 +1,10 @@
 {
   "name": "db-visualizer",
+  "author": "pixelThreader",
+  "license": "MIT",
+  "description": "This is an app that is uesd to visualize the SQLite Database.",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
